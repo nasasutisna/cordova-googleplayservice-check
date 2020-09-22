@@ -34,21 +34,22 @@ public class GooglePlayServicesCheck extends CordovaPlugin {
                 // Continue
                 return true;
             } else { // Google Play services was not available for some reason
-                mCordova.getActivity().runOnUiThread(new Runnable() {
-                    public void run() {
-                        // Get the error dialog from Google Play services
-                        Dialog errorDialog = GooglePlayServicesUtil.getErrorDialog(resultCode, mCordova.getActivity(), 0);
+                // mCordova.getActivity().runOnUiThread(new Runnable() {
+                //     public void run() {
+                //         // Get the error dialog from Google Play services
+                //         Dialog errorDialog = GooglePlayServicesUtil.getErrorDialog(resultCode, mCordova.getActivity(), 0);
 
-                        // If Google Play services can provide an error dialog
-                        if (errorDialog != null) {
-                            // Create a new DialogFragment in which to show the error dialog
-                            ErrorDialogFragment errorFragment = ErrorDialogFragment.newInstance(errorDialog);
+                //         // If Google Play services can provide an error dialog
+                //         if (errorDialog != null) {
+                //             // Create a new DialogFragment in which to show the error dialog
+                //             ErrorDialogFragment errorFragment = ErrorDialogFragment.newInstance(errorDialog);
 
-                            // Show the error dialog in the DialogFragment
-                            errorFragment.show(mCordova.getActivity().getFragmentManager(), GooglePlayServicesCheck.APPTAG);
-                        }
-                    }
-                });
+                //             // Show the error dialog in the DialogFragment
+                //             errorFragment.show(mCordova.getActivity().getFragmentManager(), GooglePlayServicesCheck.APPTAG);
+                //         }
+                //     }
+                // });
+                return false;
             }
         }
         return false;
