@@ -1,0 +1,56 @@
+{
+  "_from": "git+https://github.com/rehmatt/cordova-plugin-googleplayservices-check.git",
+  "_id": "cordova-plugin-googleplayservices-check@1.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-googleplayservices-check",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/rehmatt/cordova-plugin-googleplayservices-check.git",
+    "rawSpec": "https://github.com/rehmatt/cordova-plugin-googleplayservices-check.git",
+    "saveSpec": "git+https://github.com/rehmatt/cordova-plugin-googleplayservices-check.git",
+    "fetchSpec": "https://github.com/rehmatt/cordova-plugin-googleplayservices-check.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/rehmatt/cordova-plugin-googleplayservices-check.git#c427fa5e08b31bab55b1322c0066a8efdb483a8c",
+  "_spec": "https://github.com/rehmatt/cordova-plugin-googleplayservices-check.git",
+  "_where": "D:\\Project\\Ionic\\greatdayhr-app",
+  "author": {
+    "name": "rehmatt"
+  },
+  "bugs": {
+    "url": "https://github.com/rehmatt/cordova-plugin-googleplayservices-check/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-googleplayservices-check",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Simple cordova plugin for checking that the google play services are installed, updated and enabled.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.4.0"
+    }
+  ],
+  "homepage": "https://github.com/rehmatt/cordova-plugin-googleplayservices-check#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-googleplayservices-check",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehmatt/cordova-plugin-googleplayservices-check.git"
+  },
+  "version": "1.0.1"
+}
